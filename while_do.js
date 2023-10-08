@@ -1,6 +1,5 @@
-var input;
+var count = 1;
 do {
-    input = parseInt(prompt("Masukkan angka positif:"));
-} while (isNaN(input) || input <= 0);
-
-console.log("Anda memasukkan angka positif: " + input);
+    console.log("ORANG KE " + count);
+    count++;
+} while (count <= 5);
